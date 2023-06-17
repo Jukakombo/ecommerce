@@ -17,7 +17,7 @@ function DailyEssential() {
             key={x._id}
           >
             <img
-              className="w-[130px] h-[130px] rounded-[15px]"
+              className="w-[130px] h-[100px] rounded-[15px]"
               src={x.image}
               alt="dailEssential"
             />

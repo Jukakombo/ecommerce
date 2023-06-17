@@ -78,13 +78,13 @@ function Footer() {
         </div>
       </div>
       <div className="absolute  top-0  right-0 md:top-[-50px] md:right-[-50px]">
-        <div className="border-2 border-[#05ABF3] rounded-full p-2">
+        <div className="border-[1px] border-[#05ABF3] rounded-full p-2">
           <div className="bg-[#05ABF3] p-16 md:p-32 rounded-full" />
         </div>
       </div>
       {/* copyright */}
       <div className="w-4/5 m-auto mt-8 text-white text-center">
-        <div className="border-t-2 border-[#05ABF3] pb-2" />
+        <div className="border-t-[1px] border-[#05ABF3] pb-2" />
         <p>
           &copy; {new Date().getFullYear()} All rights reserved.Reliance Ltd
         </p>
