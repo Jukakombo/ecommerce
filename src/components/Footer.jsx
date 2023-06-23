@@ -32,14 +32,14 @@ function Footer() {
           {/* download app */}
           <h1 className="text-white font-bold text-xl my-4">Download App</h1>
           <div className="flex items-center">
-            <div className="bg-black p-2 rounded text-white mr-4 flex items-center">
+            <div className="bg-black p-2 rounded cursor-pointer text-white mr-4 flex items-center">
               <BsApple size={25} />
               <div className="ml-2">
                 <p>Download on</p>
                 <h1 className="font-bold  text-white">App Store</h1>
               </div>
             </div>
-            <div className="bg-black p-2 rounded text-white   flex items-center">
+            <div className="bg-black p-2 rounded cursor-pointer text-white   flex items-center">
               <FaGooglePlay size={25} />
               <div className="ml-2">
                 <p>Get it from</p>{" "}
