@@ -6,6 +6,7 @@ import Shipping from "./components/Shipping";
 import Payment from "./components/Payment";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
+import ViewAllProduct from "./components/ViewAllProduct";
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/payment" element={<Payment />} />
         <Route path="/login" element={<Login />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/view-all" element={<ViewAllProduct />} />
       </Routes>
     </BrowserRouter>
   );
