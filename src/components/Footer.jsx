@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdCall } from "react-icons/md";
 import { BsApple } from "react-icons/bs";
