@@ -6,6 +6,7 @@ import Categories from "./Categories";
 import ElectronicBrand from "./ElectronicBrand";
 import DailyEssential from "./DailyEssential";
 import Footer from "./Footer";
+import CountDown from "./CountDown";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <Categories />
       <ElectronicBrand />
       <DailyEssential />
+      <CountDown />
       <Footer />
     </div>
   );
