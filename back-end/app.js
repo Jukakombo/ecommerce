@@ -3,6 +3,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import productRoutes from "./routes/index.js";
 dotenv.config();
 const app = express();
 const port = 5000;
@@ -17,6 +18,8 @@ app.use(bodyParser.json({ limit: "10mb", extended: true }));
 app.get("/", (req, res) => {
   res.send("Hello welcome to our nodejs backend");
 });
+// getting data directly from the server side
+app.use("/products", productRoutes);
 
 // connect to database
 mongoose
